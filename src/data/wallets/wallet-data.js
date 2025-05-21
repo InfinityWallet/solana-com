@@ -1,4 +1,5 @@
 import defaultIcon from "../../../assets/wallets/wallet-placeholder-icon.png";
+import infinitywalletIcon from "../../../assets/wallets/icons/infinitywallet.png";
 import phantomIcon from "../../../assets/wallets/icons/phantom.png";
 import backpackIcon from "../../../assets/wallets/icons/backpack.png";
 import solflareIcon from "../../../assets/wallets/icons/solflare.png";
@@ -32,6 +33,30 @@ import cakewalletIcon from "../../../assets/wallets/icons/cakewallet.png";
 import tokenPocketIcon from "../../../assets/wallets/icons/tokenpocket.png";
 
 export const walletData = [
+  {
+    name: "Infinity Wallet",
+    body: "An all-in-one self-custodial multi-chain crypto wallet.",
+    website: "https://infinitywallet.io/",
+    additionalInfo:
+      "Non-Custodial/Self Custodial • Swap Crypto • Buy Crypto • Sell Crypto • Hold NFTs ",
+    icon: infinitywalletIcon,
+    custodial: false,
+    non_custodial: true,
+    te: true,
+    blinks_and_actions: true,
+    solana_pay: true,
+    buy_crypto: true,
+    sell_crypto: true,
+    hold_nfts: true,
+    mpc: false,
+    gas_abstraction: false,
+    social_recovery: false,
+    staking: false,
+    spending_limits: false,
+    open_source: false,
+    hardware: false,
+    private_key_infrastructure: false,
+  },
   {
     name: "Phantom",
     body: "Multiple chains, one wallet. No more switching.",
