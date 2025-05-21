@@ -38,7 +38,7 @@ export const walletData = [
     body: "An all-in-one self-custodial multi-chain crypto wallet.",
     website: "https://infinitywallet.io/",
     additionalInfo:
-      "Non-Custodial/Self Custodial • Swap Crypto • Buy Crypto • Sell Crypto • Hold NFTs ",
+      "Non-Custodial/Self Custodial • Swap Crypto • Solana Pay • Buy Crypto • Sell Crypto • Hold NFTs ",
     icon: infinitywalletIcon,
     custodial: false,
     non_custodial: true,
